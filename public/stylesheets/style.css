@@ -1,9 +1,34 @@
 body {
-  padding: 50px;
-  font: 140px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: #E8EAF6;
+  margin:auto;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+  background-image:  url("../images/fondoPrincipal.jpg");
+
+  background-size: cover;
+  background-position: absolute;
+  background-attachment: fixed;
+  
 }
 
 a {
   color: #00B7FF;
+}
+.targetas{
+  max-width: 50%;
+  align-items: center;
+}
+.barraDeNavegacion{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+
+}
+.margenConBarraNavegacion{
+  margin-top: 6%
+}
+.imagenLogo{
+  height: 100%;
+  width: 35%;
+  border-radius:150px;
 }
