@@ -1,0 +1,13 @@
+<footer>
+    <div class="cookiesms" id="cookie1">
+        Esta web utiliza cookiesSi continuas navegando estás aceptándola
+        <button onclick="controlcookies()">Aceptar</button>
+        <div class="cookies2" onmouseover="document.getElementById('cookie1').style.bottom = '0px';">Política de cookies
+            + </div>
+    </div>
+    <script type="text/javascript">
+        if (localStorage.controlcookie > 0) {
+            document.getElementById('cookie1').style.bottom = '-50px';
+        }
+    </script>
+</footer>
