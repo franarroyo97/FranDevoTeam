@@ -11,11 +11,7 @@ $(document).ready(function () {
 
     function mostrarMenu() {
         if (menuDesplegado == false) {
-          
-            $(".barraDeNavegacionMovil").addClass("animated")
-            $(".barraDeNavegacionMovil").addClass("rollin")
             $(".barraDeNavegacionMovil").css("display", "block");
-            
             menuDesplegado = true;
         }
         else {
@@ -39,9 +35,13 @@ $(document).ready(function () {
         $(".targetas").mouseout(function () {
             $(this).css("max-width", "50%");
         })
+        
     }
     function ocultarBarraDeNavegacionMovil() {
         $("main").mouseover(function () {
+            $(".barraDeNavegacionMovil").hide();
+        })
+        $("section").mouseover(function () {
             $(".barraDeNavegacionMovil").hide();
         })
 
