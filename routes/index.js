@@ -8,5 +8,7 @@ router.get('/', function (req, res, next) {
 router.get('/contacto', function (req, res, next) {
   res.render('contacto', { title: 'contacto' });
 });
-
+router.get('/galeria', function (req, res, next) {
+  res.render('galeria', { title: 'contacto' });
+});
 module.exports = router;

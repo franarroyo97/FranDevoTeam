@@ -2,23 +2,25 @@ body {
 
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 
-  background-image:  url("../images/FondoPrincipal.jpg") ;
+ 
 
   background-size: cover;
   background-position: absolute;
   background-attachment: fixed;
   
 }
-
+.contactoPagina  {
+  background-image:  url("") ;
+}
 
 .targetas{
   max-width: 50%;
+  max-height: 100%;
  
 
 }
 .targetas  :hover{
-  max-width: 100% ;
-  width: 100%;
+ 
   
   background-color: #B3E5FC;
 }
@@ -41,13 +43,22 @@ body {
 }
 .barraDeNavegacionMovil {
   display: none;
-  
+  position: fixed;
+  width: 100%;
+  border: 1 solid;
+  background-color:white;
+  color:black;
+  top: 0;
+  z-index: 3;
 }
 .botonMovil{
   display: none;
+  z-index: 5;
+  max-width: 5%;
+
 }
 .colorIconoMovil{
-    color:#B3E5FC;
+    color:rgb(34, 112, 148);
 }
 @media only screen and (max-width: 617px) {
   .barraDeNavegacion {
